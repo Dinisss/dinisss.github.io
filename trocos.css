@@ -1,0 +1,50 @@
+body{
+    font-family:monospace;
+    background-color: #0080FF;
+    color: white;
+
+}
+
+h1{
+    font-size: 50px;
+    border:solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:blue;
+
+
+}
+
+#valor{
+    font-size: 40px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#btvalor{
+     font-size: 20px;
+     padding:25px;
+     width: 100px;
+     height: 70px;
+     background-color:rgb(107, 43, 226);
+     border-radius: 10px;
+     border-color:blue;
+}
+
+#btvalor:hover{
+    border-color: purple;
+    opacity: 0.8;
+   
+}
+
+a{
+   margin-left: 50%;
+   margin-right:50%;
+}
+
+
+
+p{
+    font-size: 30px;
+    color: yellow;
+}
