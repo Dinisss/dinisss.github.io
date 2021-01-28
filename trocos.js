@@ -44,8 +44,6 @@ function trocos() {
         valor = valor - moeda;
         resultado.push(moeda);
     }
-    
-    var moeda = 0.01;
 
     var moeda = 0.01;
     while (valor >= moeda) {
