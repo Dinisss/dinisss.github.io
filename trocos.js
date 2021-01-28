@@ -9,43 +9,45 @@ function trocos() {
         resultado.push(moeda);
     }
 
-    moeda = 1;
+    var moeda = 1;
     while (valor >= moeda) {
         valor = valor - moeda;
         resultado.push(moeda);
     }
 
-    moeda = 0.5;
+    var moeda = 0.5;
     while (valor >= moeda) {
         valor = valor - moeda;
         resultado.push(moeda);
     }
 
-    moeda = 0.2;
+    var moeda = 0.2;
     while (valor >= moeda) {
         valor = valor - moeda;
         resultado.push(moeda);
     }
 
-    moeda = 0.1;
+    var moeda = 0.1;
     while (valor >= moeda) {
         valor = valor - moeda;
         resultado.push(moeda);
     }
 
-    moeda = 0.05;
+    var moeda = 0.05;
     while (valor >= moeda) {
         valor = valor - moeda;
         resultado.push(moeda);
     }
 
-    moeda = 0.02;
+    var moeda = 0.02;
     while (valor >= moeda) {
         valor = valor - moeda;
         resultado.push(moeda);
     }
+    
+    var moeda = 0.01;
 
-    moeda = 0.01;
+    var moeda = 0.01;
     while (valor >= moeda) {
         valor = valor - moeda;
         resultado.push(moeda);
